@@ -1,0 +1,306 @@
+/* *{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  color:green;
+  font-size: 30px;
+}
+h2{
+  color:red;
+  font-size: 30px;
+}
+body{
+  background-color: pink; */
+/* } */
+/* src/TableComponent.css */
+
+ table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 5px solid red;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color:yellow;
+  font-size: 35px;
+  color:blueviolet;
+}
+
+tr:nth-child(even) {
+  background-color:aqua;
+}
+tr:nth-child(odd) {
+  background-color:aqua;
+}
+src/TableComponent.css
+
+.table-container {
+  margin: 20px;
+  width:100%;
+}
+
+.table-wrapper {
+  max-width: 600px;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+h3,u{
+  color:green;
+  font-size: 50px;
+}  */
+
+
+/* LoginForm.css */
+
+/* LoginForm.css */
+
+/* .login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+} */
+
+
+
+/* RegistrationForm.css */
+
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+ 
+ /* Navbar.css */
+
+/* .navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 10px;
+}
+
+.navbar button {
+  color: #fff;
+  background: none;
+  border: none;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+.page-content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-content h2 {
+  text-align: center;
+}
+ */
+
+ /* src/App.css */
+
+
+ header {
+  background-color:yellow;
+  color: green;
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  background-color:aqua;
+  color: red;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.SPcard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+.SPcard img {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.SPcard-content {
+  padding: 16px;
+}
+.navbar {
+  background-color:blueviolet;
+  padding: 10px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color:orange;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+.container {
+  text-align: center;
+  color:#28a745;
+  background:pink;
+}
+
+h1 {
+  color: blue;
+}
+
+.paragraph {
+  font-family: Arial, sans-serif;
+  
+}
+/* Add this CSS to your stylesheet */
+.menu-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.menu-card .card-body {
+  padding: 10px;
+}
+
+.menu-card .card-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.menu-card .card-title strong {
+  font-weight: bold;
+}
+
+.menu-card p {
+  margin: 5px 0;
+}
+
+/* .menu-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.menu-card button:hover {
+  background-color: #0056b3;
+} */
+
+
+
+
